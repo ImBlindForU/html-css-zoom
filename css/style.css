@@ -7,7 +7,7 @@
 /* command */
 
 img{
-    max-width: 100%;
+    width: 100%;
 }
 .wrapper{
     height: 100vh;
@@ -23,7 +23,6 @@ img{
     margin: 0 auto;
     overflow: auto;
 
-
     /* debug */
     background-color: rgb(15, 39, 255);
     
@@ -37,7 +36,47 @@ img{
     background-color: hsl(0, 0%, 13%);
 }
 
+.container{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
 /* main struttura card */
+
+/* griglia */
+
+.row{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+
+.col{
+    width: calc(100% / 7);
+    padding: .2em;
+    border: 1px solid red;
+    /* height: 100px; */
+}
+
+.utente{
+    position: relative;
+    
+
+}
+
+.utente img{
+    display: block;
+}
+
+.utente .name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 0.8rem;
+    color: white;
+}
+
+
 
 /* tollbar */
 
