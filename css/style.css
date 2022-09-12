@@ -24,7 +24,7 @@ img{
     overflow: auto;
 
     /* debug */
-    background-color: rgb(15, 39, 255);
+    /* background-color: rgb(15, 39, 255); */
     
 }
 
@@ -54,7 +54,7 @@ img{
 .col{
     width: calc(100% / 7);
     padding: .2em;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* height: 100px; */
 }
 
